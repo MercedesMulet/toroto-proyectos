@@ -1,0 +1,101 @@
+.header-display{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 24px;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+
+    @media only screen and (min-width : 1080px) {
+        flex-direction: row-reverse;
+        align-items: flex-start;
+        box-shadow: none;
+        border-radius: none;
+        margin: 0;
+    }
+
+    .img-display {
+        width: 120%;
+        z-index: -1;
+        margin-left: -40px;
+        overflow: hidden;
+        object-fit: cover;
+
+        @media only screen and (min-width : 1080px) {
+            width: 32rem;
+            height: 34rem;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 20px;
+            overflow: visible;
+        }
+    }
+
+    .content-display {
+        background-color: $blanco-toroto;
+        border-radius: 20px 20px 0 0;
+        margin-top: -20px;
+        padding: 35px 16px 0 16px;
+        z-index: 2;
+
+        @media only screen and (min-width : 1080px) {
+            width: 32rem;
+            padding: 0;
+            margin-right: 24px;
+            margin-top: 0;
+        }        
+    
+        .volanta-display {
+            font-size: 14px;
+            line-height: 16px;
+            font-weight: 400;
+            letter-spacing: 0.18px;
+            margin: 0;
+            color: $gris-1;
+
+            @media only screen and (min-width : 1080px) {
+                font-size: 24px;
+                line-height: 32px;
+            }
+        }
+
+        .h2-display {
+            font-size: 24px;
+            line-height: 28px;
+            font-weight: 400;
+            margin: 4px 0 24px;
+
+            @media only screen and (min-width : 1080px) {
+                font-size: 48px;
+                line-height: 56px;
+                font-weight: 400;
+                margin: 8px 0 16px;
+                color: $gris-1;
+            }
+        }
+
+        .tags-row {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 24px;
+        }
+
+        .txt-display {
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 0.15px;
+            font-weight: 400;
+            color: $gris-2;
+            margin: 0;
+
+            @media only screen and (min-width : 1080px) {
+                font-size: 20px;
+                letter-spacing: 0.15px;
+                line-height: 24px;
+                font-weight: 500;
+            }
+        }
+    
+    }
+    
+}

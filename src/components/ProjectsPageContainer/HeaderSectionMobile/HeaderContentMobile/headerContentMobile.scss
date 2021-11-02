@@ -1,0 +1,25 @@
+.header-content-mobile {
+    background-color: $blanco-toroto;
+    border-radius: 20px 20px 0 0;
+    margin-top: -20px;
+    padding: 35px 16px 0 16px;
+    z-index: 2;
+    text-align: center;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+
+    .h1-header-mobile {
+        font-size: 24px;
+        line-height: 28px;
+        font-weight: 400;
+        margin: 0 0 8px;
+    }
+
+    .p-header-mobile {
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.15px;
+        font-weight: 500;
+        margin-top: 0;
+        margin-bottom: 16px;
+    }
+}

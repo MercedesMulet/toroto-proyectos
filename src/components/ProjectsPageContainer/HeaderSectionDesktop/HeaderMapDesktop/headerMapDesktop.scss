@@ -1,0 +1,19 @@
+@import './MapCard/mapCard.scss';
+
+.header-map-desktop {
+
+    .pin-btn {
+        background-color: transparent;
+        border: none;
+        position: relative;
+
+        .pin-icon {
+            @media only screen and (min-width : 1080px) {
+                width: 34.15px;
+                height: 34.15px;
+                cursor: pointer;
+            }
+        }
+    }
+    
+}

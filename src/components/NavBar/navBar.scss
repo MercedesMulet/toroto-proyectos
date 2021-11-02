@@ -1,0 +1,14 @@
+@import './MobileNavigation/mobileNavigation.scss';
+@import './DesktopNavigation/desktopNavigation.scss';
+
+.nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    background: $azul-toroto;
+    z-index: 5;
+}
+
+

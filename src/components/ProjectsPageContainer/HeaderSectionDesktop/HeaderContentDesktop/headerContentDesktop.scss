@@ -1,0 +1,21 @@
+.header-content-desktop {
+    position: absolute;
+    top: 13rem;
+    left: 5rem;
+    width: 21rem;
+
+    .h1-header-desktop {
+        font-size: 48px;
+        line-height: 56px;
+        font-weight: 400;
+        color: #333333;
+        margin-bottom: 16px;
+    }
+
+    .p-header-desktop {
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.15px;
+        margin: 0 0 32px;
+    }
+}

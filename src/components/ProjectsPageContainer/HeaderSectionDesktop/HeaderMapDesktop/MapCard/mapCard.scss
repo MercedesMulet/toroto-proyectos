@@ -1,0 +1,58 @@
+.map-card {
+    @media only screen and (min-width : 1080px) {
+        width: 423px;
+        height: 355px;
+        border-radius: 20px;
+        background: $blanco-toroto;
+        position: relative;
+        transition: all 0.3 ease;
+    }
+
+    .img-map-card {
+
+        @media only screen and (min-width : 1080px) {
+            width: 100%;
+            height: 6rem;
+            object-fit: cover;
+            border-radius: 20px 20px 0 0;
+        }
+    }
+
+    .content-map-card {
+
+        @media only screen and (min-width : 1080px) {
+            margin: 24px 32px 24px;
+        }        
+    
+        .volanta-map-card {
+
+            @media only screen and (min-width : 1080px) {
+                font-size: 16px;
+                font-weight: 400;
+                letter-spacing: 0.15px;
+                margin: 0;
+            }
+        }
+
+        .h2-map-card {
+
+            @media only screen and (min-width : 1080px) {
+                font-size: 24px;
+                line-height: 24px;
+                font-weight: 400;
+                letter-spacing: 0.18px;
+            }
+        }
+
+        .txt-map-card {
+            
+            @media only screen and (min-width : 1080px) {
+                font-size: 14px;
+                line-height: 20px;
+                font-weight: 400;
+                letter-spacing: 0.25px;
+                margin: 0;
+            }
+        }
+    }
+}

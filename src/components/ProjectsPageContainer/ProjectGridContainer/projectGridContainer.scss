@@ -1,0 +1,33 @@
+@import '../ProjectGridContainer/ProjectGridList/projectGridList.scss';
+@import '../ProjectGridContainer/ProjectGridItem/projectGridItem.scss';
+
+.project-grid-container {
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+
+    @media only screen and (min-width : 1080px) {
+        padding: 6.5rem 12.5rem;
+    }
+
+    .h2-project-grid-container-div {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+
+        .h2-project-grid-container {
+            font-size: 24px;
+            font-weight: 400;
+            margin: 18px 0 24px;
+    
+            @media only screen and (min-width : 1080px) {
+                font-size: 48px;
+                line-height: 56px;
+                margin: 0 0 32px;
+            }
+        }
+    }
+}

@@ -1,0 +1,54 @@
+.progress-feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+    .impact-number {
+        font-size: 45px;
+        line-height: 50px;
+        letter-spacing: -0.5px;
+        font-weight: 700;
+        text-align: center;
+        color: $azul-toroto;
+        margin: 0;
+
+        @media only screen and (min-width : 1080px) {
+            font-size: 72px;
+            line-height: 72px;
+        }
+    }
+
+    .impact-content {
+        font-size: 12px;
+        line-height: 14px;
+        font-weight: 500;
+        letter-spacing: 0.15px;
+        text-align: center;
+        color: $gris-1;
+        margin: 4px 0 0;
+
+        @media only screen and (min-width : 1080px) {
+            font-size: 20px;
+            line-height: 24px;
+            margin: 8px 0 0;
+        }
+    } 
+
+    &:before {
+        content: '';
+        display: block;
+        background: $gris-5;
+        width: 100%;
+        height: 56px;
+        border-radius: 10px;
+        position: absolute;
+        top: 30px;
+        z-index: -2;
+
+        @media only screen and (min-width : 1080px) {
+            height: 117px;
+            top: 35px;
+        }
+    }
+}

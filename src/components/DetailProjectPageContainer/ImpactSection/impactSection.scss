@@ -1,0 +1,30 @@
+@import './ProgressFeature/progressFeature.scss';
+
+.impact-section {
+    padding: 0 16px;
+    margin-bottom: 48px;
+
+    @media only screen and (min-width : 1080px) {
+        padding: 28px 200px 0;
+        margin-bottom: 0px;
+    }
+
+    .h2-impact {
+        font-size: 24px;
+        font-weight: 400;
+        margin: 0 6px 24px 0;
+    }
+
+    .impact-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 88px);
+        gap: 8px;
+
+        @media only screen and (min-width : 1080px) {
+            grid-template-columns: repeat(4, 200px);
+            gap: 80px;
+        }
+    }
+}
+

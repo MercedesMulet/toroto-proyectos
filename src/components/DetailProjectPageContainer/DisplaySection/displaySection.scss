@@ -1,0 +1,11 @@
+@import './HeaderDisplaySection/headerDysplaySection.scss';
+@import './Problem/problem.scss';
+
+.display-section {
+    margin-bottom: 48px;
+
+    @media only screen and (min-width : 1080px) {
+        padding: 28px 200px;
+        margin-bottom: 0;
+    }
+}

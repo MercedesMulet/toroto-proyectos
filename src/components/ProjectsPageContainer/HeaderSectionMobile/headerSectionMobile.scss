@@ -1,0 +1,14 @@
+@import './HeaderContentMobile/headerContentMobile.scss';
+
+.header-section-mobile {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+
+    img {
+        width: 120%;
+        z-index: -1;
+        margin-left: -40px;
+        overflow: hidden;
+    }
+}

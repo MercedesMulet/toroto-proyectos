@@ -1,0 +1,22 @@
+@import './TooltipIcon/tooltipIcon.scss';
+
+
+.header-implementation {
+    display: flex;
+    align-items: center;
+
+    @media only screen and (min-width : 1080px) {
+        margin: 0 20px 64px 0;
+    }
+
+    .h2-implementation {
+        font-size: 24px;
+        font-weight: 400;
+        margin: 0 6px 0 0;
+
+        @media only screen and (min-width : 1080px) {
+            font-size: 48px;
+            line-height: 48px;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+@import './HeaderImplementation/headerImplementation.scss';
+@import './ActivitiesImplementation/activitiesImplemantation.scss';
+@import './SitesMap/sitesMap.scss';
+@import './GalleryImplementation/galleryImplementation.scss';
+
+.implementation-section {
+    padding: 0 16px;
+    margin-bottom: 48px;
+
+    @media only screen and (min-width : 1080px) {
+        padding: 28px 200px;
+        margin-bottom: 0px;
+    }
+
+    .h3-implementation {
+        color: $gris-1;
+        font-size: 14px;
+        letter-spacing: 0.18px;
+        font-weight: 400;
+        margin: 24px 0 16px;
+
+        @media only screen and (min-width : 1080px) {
+            font-size: 24px;
+        }
+    }
+}

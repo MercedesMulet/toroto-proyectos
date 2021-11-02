@@ -1,0 +1,29 @@
+.contact-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $blanco-toroto;
+    border: none;
+    border-radius: 10px;
+    padding: 0;
+    transition: all 0.2s ease;
+
+    &:hover {
+        background-color: $negro-toroto;
+    }
+
+    .contact-btn-link {
+        color: $negro-toroto;
+        text-decoration: none;
+        font-family: $main-font-toroto;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 1.25px;
+        padding: 8px 16px;
+        transition: all 0.2s ease;
+
+        &:hover {
+            color: $blanco-toroto;
+        }
+    }
+}

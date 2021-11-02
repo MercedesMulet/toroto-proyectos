@@ -1,0 +1,36 @@
+.problem {
+    padding: 0 16px 0;
+    margin: 2px auto 0;
+
+    @media only screen and (min-width : 1080px) {
+        padding: 0;
+        margin: 72px 0;
+    }
+
+    .h3-problem {
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: 400;
+        letter-spacing: 0.18px;
+        color: $gris-1;
+
+        @media only screen and (min-width : 1080px) {
+            font-size: 24px;
+            line-height: 24px;
+        }
+    }
+
+    .txt-problem {
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        margin: 0;
+        color: $gris-1;
+
+        @media only screen and (min-width : 1080px) {
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+}

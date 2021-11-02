@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+@import 'base/variables';
+@import 'components/general';
+
+/* UI */
+@import '../components/Buttons/buttons.scss';
+@import '../components/Tag/tag.scss';
+
+/* Secciones */
+@import '../components/NavBar/navBar.scss';
+@import '../components/ProjectsPageContainer/projectsPageContainer.scss';
+@import '../components/DetailProjectPageContainer/detailProjectPageContainer.scss';
+@import '../components/Footer/footer.scss';
