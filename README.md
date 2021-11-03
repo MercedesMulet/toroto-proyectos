@@ -10,7 +10,7 @@
 
 ## Screenshots
 
-![Home Page](/assets/images/ScreenShot.png 'Home Page')
+![Home Page](/screenshots/HomePreview.png 'Home Page')
 
 ## Construído con
 
