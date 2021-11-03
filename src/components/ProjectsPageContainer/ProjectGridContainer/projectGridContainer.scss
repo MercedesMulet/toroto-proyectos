@@ -9,7 +9,7 @@
     justify-content: center;
     margin-bottom: 50px;
 
-    @media only screen and (min-width : 1080px) {
+    @media only screen and (min-width : 768px) {
         padding: 6.5rem 12.5rem;
     }
 
@@ -23,7 +23,7 @@
             font-weight: 400;
             margin: 18px 0 24px;
     
-            @media only screen and (min-width : 1080px) {
+            @media only screen and (min-width : 768px) {
                 font-size: 48px;
                 line-height: 56px;
                 margin: 0 0 32px;

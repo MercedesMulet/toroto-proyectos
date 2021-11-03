@@ -1,0 +1,69 @@
+.activities-implementation {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .accordion-btn {
+    background-color: transparent;
+    cursor: pointer;
+    padding: 10px 8px 16px;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-top: 1px solid $gris-2;
+    outline: none;
+
+    @media only screen and (min-width : 1080px) {
+      padding: 16px 16px 0;
+    }
+  }
+  
+  .accordion-title {
+    color: $gris-1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.15px;
+    margin: 0;
+
+    @media only screen and (min-width : 1080px) {
+      font-size: 20px;
+    }
+  }
+  
+  .accordion-icon {
+    width: 20px;
+    margin-left: auto;
+    transition: transform 0.3s ease;
+  }
+
+  .rotate {
+    transform: rotate(180deg);
+  }
+  
+  .accordion-content {
+    padding: 0 8px;
+    background-color: white;
+    color: $gris-1;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+
+    @media only screen and (min-width : 1080px) {
+      padding: 16px 16px 0;
+    }
+
+    .txt-content {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.5px;
+        margin: 0 0 24px;
+
+        @media only screen and (min-width : 1080px) {
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+  }
+  
+  

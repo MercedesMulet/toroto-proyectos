@@ -10,7 +10,7 @@ export const HeaderDisplaySection = ({ project }) => {
         <h2 className="h2-display">{project.name}</h2>
         <div className="tags-row">
           {project.services?.map((service) => (
-            <Tag service={service} />
+            <Tag service={service} key={project.id} />
           ))}
         </div>
         <p className="txt-display">{project.description}</p>
