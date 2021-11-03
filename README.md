@@ -8,9 +8,9 @@
 
 - [API](https://fieldops-api.toroto.mx/api/projects 'API')
 
-## Screenshots
+## Screenshot
 
-![Home Page](/screenshots/HomePreview.png 'Home Page')
+<img src="screenshots/HomePreview.png" height="400" alt="Home Page"/>
 
 ## Construído con
 
