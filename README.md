@@ -1,6 +1,6 @@
 <h1 align="center">Toroto - Proyectos</h1>
 
-<p align="center">Sección de proyectos y detalle de proyectos para Toroto México</p>
+<p align="center">Sección de Proyectos y Detalle de Proyecto para el sitio web de Toroto México</p>
 
 ## Links
 
@@ -10,15 +10,16 @@
 
 ## Screenshots
 
-![Home Page](/screenshots/1.png 'Home Page')
+![Home Page](/assets/images/ScreenShot.png 'Home Page')
 
-## Construido con
+## Construído con
 
 - ReactJS
 - NPM
 - Webpack
 - HTML
 - SASS
+- MapBox
 
 ## Futuras actualizaciones
 
@@ -34,8 +35,8 @@
 
 - [Profile](https://github.com/MercedesMulet 'Mercedes Mulet')
 - [Email](mailto:mercedes.mulet@gmail.com?subject=Hola 'Hola!')
-- [Website](https://mercedesmulet.com 'Welcome')
-- [LinkedIn](https://www.linkedin.com/in/mercedes-mulet/))
+- [Website](https://mercedesmulet.com 'Mi sitio')
+- [LinkedIn](https://www.linkedin.com/in/mercedes-mulet/ 'Mi LinkedIn')
 
 ## 🤝 Support
 
