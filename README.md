@@ -24,7 +24,6 @@
 ## Futuras actualizaciones
 
 - [ ] Corregir popup en Mapa
-- [ ] Corregir apertura de la sección acordeón
 - [ ] Hacer navegable el mapa de la sección de Detalle de Proyecto
 - [ ] Agregar modal
 - [ ] Agregar carrusel de imágenes
